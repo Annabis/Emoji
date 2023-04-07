@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #edeef3;
+  min-height: 100vh;
+}
+
+header {
+  height: 295px;
+  background: linear-gradient(92.33deg, #087990 0.12%, #055160 100%);
+  position: relative;
+  padding-top: 68px;
+}
+
+header > h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 87px;
+  color: #cff4fc;
+  text-align: center;
+}
+
+header > p {
+  font-family: "Inter";
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 36px;
+  /* identical to box height, or 171% */
+
+  /* Cyan / 100 */
+
+  color: #cff4fc;
+}
+
+#input {
+  left: calc((100% - 820px) / 2);
+  height: 64px;
+  padding: 22px 32px;
+  position: absolute;
+  bottom: -32px;
+  width: 820px;
+  /* /Gray / White */
+
+  background: #ffffff;
+  /* Stroke/Input */
+
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 21px;
+  color: #abb5be;
+}
+
+#emojis {
+  margin: 0 auto;
+  padding-top: 80px;
+  width: 990px;
+  display: flex;
+  justify-content: space-between;
+
+  flex-wrap: wrap;
+}
+
+.emoji__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 31%;
+  padding: 24px;
+  background: #ffffff;
+  /* Stroke/light */
+
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  margin-bottom: 18px;
+}
+
+.emoji__symbol {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 48px;
+  /* identical to box height, or 100% */
+
+  /* Body Text / Base Color */
+
+  color: #68717a;
+  margin-bottom: 18px;
+}
+.emoji__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 28px;
+  /* identical to box height, or 165% */
+
+  text-decoration-line: underline;
+
+  color: #000000;
+  margin-bottom: 12px;
+}
+
+.emoji__keywords {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+
+  color: #3f444a;
+}
